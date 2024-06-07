@@ -37,7 +37,7 @@ jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
 function downloadFile() {
     var link = document.createElement("a");
     link.download = "filename";
-    link.href = "cv\Akash_Khot_CV.pdf";
+    link.href = "cv/AkashKhotCV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
